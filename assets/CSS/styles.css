@@ -115,7 +115,9 @@ main {
   align-items: center;
   grid-area: main;
   background: #01010480;
-  overflow: auto;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Home */
