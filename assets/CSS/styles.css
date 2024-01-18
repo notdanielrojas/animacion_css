@@ -1,6 +1,6 @@
 /* Body */
 body {
-  background-image: url("../img/background2.jpg");
+  background-image: url("../img/background2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -197,7 +197,7 @@ main {
 /* Grid Container */
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   grid-template-rows: 5rem auto 5rem;
   grid-template-areas:
     "nav"
@@ -209,7 +209,7 @@ main {
 
 @media (min-width: 576px) {
   .grid-container {
-    grid-template-columns: 15rem 1fr;
+    grid-template-columns: 15rem auto;
     grid-template-rows: 5rem auto 5rem;
     grid-template-areas:
       "nav nav"
@@ -220,7 +220,7 @@ main {
 
 @media (min-width: 992px) {
   .grid-container {
-    grid-template-columns: 25rem 1fr;
+    grid-template-columns: 25rem auto;
     grid-template-rows: auto 5rem;
     grid-template-areas:
       "nav main"
@@ -243,7 +243,7 @@ main {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   grid-template-rows: repeat(8, 1fr);
   padding: 5rem 3.2rem 5rem 3.2rem;
   row-gap: 3rem;
