@@ -144,6 +144,7 @@ main {
   width: 260px;
   height: 320px;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 @media (min-width: 576px) {
@@ -426,6 +427,7 @@ main {
 .community-image img {
   width: 260px;
   height: 320px;
+  object-fit: cover;
   border-radius: 15px;
 }
 
@@ -508,6 +510,7 @@ main {
 .about-image img {
   width: 260px;
   height: 320px;
+  object-fit: cover;
   border-radius: 15px;
 }
 
