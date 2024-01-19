@@ -91,10 +91,11 @@ nav {
 .menu-options {
   display: flex;
   flex-direction: column;
-  background-color: #01010450;
+  background-color: #01010480;
   border-radius: 0.8rem;
   height: auto;
   width: auto;
+  z-index: 3;
 }
 
 .menu-options a {
@@ -549,6 +550,11 @@ footer {
   align-items: center;
   grid-area: footer;
   background: #01010450;
+  position: sticky;
+  bottom:0;
+  left:0;
+  right:0
+  
 }
 
 footer i {
