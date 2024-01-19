@@ -116,7 +116,12 @@ main {
   align-items: center;
   grid-area: main;
   background: #01010480;
-  overflow: auto;
+}
+
+@media (min-width: 992px) {
+  main {
+    overflow: auto;
+  }
 }
 
 /* Home */
@@ -130,7 +135,6 @@ main {
 @media (min-width: 576px) {
   .welcome {
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-evenly;
   }
 }
@@ -185,7 +189,7 @@ main {
   font-size: large;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .welcome-title {
     font-size: x-large;
   }
@@ -232,11 +236,31 @@ main {
 /* Feature, Grid-Cards */
 .grid-cards-title {
   font-size: large;
+  width: 80%;
 }
 
 @media (min-width: 576px) {
   .grid-cards-title {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid-cards-title {
     font-size: x-large;
+  }
+}
+
+@media (min-width: 576px) {
+  .hr-cards {
+    width: 70%;
+  }
+}
+
+@media (min-width: 992px) {
+  .hr-cards {
+    width: 75%;
   }
 }
 
@@ -244,7 +268,7 @@ main {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 1fr);
   padding: 5rem 3.2rem 5rem 3.2rem;
   row-gap: 3rem;
@@ -414,8 +438,8 @@ main {
 @media (min-width: 576px) {
   .community {
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-evenly;
+    padding: 10rem 0rem 10rem 0rem;
   }
 }
 
@@ -469,7 +493,7 @@ main {
   font-size: large;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .community-title {
     font-size: x-large;
   }
@@ -491,8 +515,13 @@ main {
 @media (min-width: 576px) {
   .about {
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 992px) {
+  .about {
+    padding: 15rem 0rem 15rem 0rem;
   }
 }
 
@@ -504,7 +533,6 @@ main {
 @media (min-width: 576px) {
   .about-info {
     width: 50%;
-    padding: 1rem 0rem 1rem 0rem;
   }
 }
 
@@ -533,7 +561,7 @@ main {
   font-size: large;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .about-title {
     font-size: x-large;
   }
@@ -550,12 +578,6 @@ footer {
   align-items: center;
   grid-area: footer;
   background: #01010450;
-  position: sticky;
-  bottom:0;
-  left:0;
-  right:0;
-  z-index: 2;
-  
 }
 
 footer i {
