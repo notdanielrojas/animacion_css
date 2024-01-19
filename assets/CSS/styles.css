@@ -343,7 +343,7 @@ main {
   width: 100%;
   height: 100%;
   border-radius: 15px;
-  background: rgba(0, 28, 39, 0.5);
+  background: #01010450;
   z-index: 2;
   transition: 0.5s;
   opacity: 0;
