@@ -23,7 +23,6 @@ nav {
   padding: 0rem 2rem 0rem 2rem;
 }
 
-
 @media (min-width: 576px) {
   .nav-info {
     justify-content: space-around;
@@ -46,7 +45,6 @@ nav {
 @media (min-width: 576px) {
   .nav-logo img {
     width: 10rem;
-    
   }
 }
 
@@ -54,7 +52,6 @@ nav {
   .nav-logo img {
     width: 30rem;
     padding: 3rem 0rem 0rem 0rem;
-    
   }
 }
 
@@ -396,51 +393,30 @@ main {
 }
 
 /* Pagination */
-.pagination {
-  padding: 2rem 0rem 5rem 0rem;
-}
-
-.pagination ul {
+.container .pagination {
+  position: relative;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
   display: flex;
+  align-items: center;
   justify-content: center;
-  list-style: none;
+  border-radius: 2px;
 }
-
-.pagination ul li {
-  padding: 0rem 0.3rem 0rem 0.3rem;
+.container .pagination li {
+  list-style-type: none;
+  display: inline-block;
 }
-
-@media (min-width: 576px) {
-  .pagination ul li {
-    padding: 0rem 1rem 0rem 1rem;
-  }
-}
-
-@media (min-width: 992px) {
-  .pagination ul li {
-    padding: 0rem 1.5rem 0rem 1.5rem;
-  }
-}
-
-.pagination ul li a {
-  padding: 1rem 2rem;
-  background: #efefef;
+.container .pagination li a {
+  position: relative;
+  padding: 20px 25px;
   text-decoration: none;
-  background: rgb(20, 32, 28, 1);
-  border-radius: 1.6rem;
-  box-shadow: 0rem 0.4rem 3rem rgba(1, 1, 4, 0.1);
-  border: 0.1rem solid rgb(20, 32, 28, 0.3);
+  color: #fff;
+  font-weight: 500;
 }
-
-.pagination ul li a:hover {
-  color: #efefef;
-  background: #0062aa;
-}
-
-.pagination ul li .active {
-  color: #efefef;
-  background: #007ad2;
-  font-weight: bold;
+.container .pagination li a:hover,
+.container .pagination li.active a {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 /* Community*/
