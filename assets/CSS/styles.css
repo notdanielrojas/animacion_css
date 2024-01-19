@@ -20,7 +20,15 @@ nav {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  padding: 0rem 2rem 0rem 1rem;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+
+@media (min-width: 576px) {
+  .nav-info {
+    justify-content: space-around;
+    padding: 0rem 3rem 0rem 3rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -32,13 +40,21 @@ nav {
 }
 
 .nav-logo img {
-  width: 10rem;
+  width: 8rem;
+}
+
+@media (min-width: 576px) {
+  .nav-logo img {
+    width: 10rem;
+    
+  }
 }
 
 @media (min-width: 992px) {
   .nav-logo img {
     width: 30rem;
-    padding: 3rem;
+    padding: 3rem 0rem 0rem 0rem;
+    
   }
 }
 
