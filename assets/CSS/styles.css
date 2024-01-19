@@ -115,7 +115,6 @@ main {
   align-items: center;
   grid-area: main;
   background: #01010480;
-  overflow: auto;
 }
 
 /* Home */
