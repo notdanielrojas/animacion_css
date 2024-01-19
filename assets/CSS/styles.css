@@ -115,6 +115,7 @@ main {
   align-items: center;
   grid-area: main;
   background: #01010480;
+  overflow: auto;
 }
 
 /* Home */
@@ -548,8 +549,7 @@ footer {
   align-items: center;
   grid-area: footer;
   background: #01010450;
-  position: sticky;
-}
+ }
 
 footer i {
   padding: 0rem 1rem 0rem 1rem;
