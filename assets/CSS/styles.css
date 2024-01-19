@@ -403,25 +403,29 @@ main {
   justify-content: center;
   border-radius: 2px;
 }
+
 .container .pagination li {
   list-style-type: none;
   display: inline-block;
 }
+
 .container .pagination li a {
   position: relative;
-  padding: 5px 10px;
+  padding: 6px 11px;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
 }
 
+@media (min-width: 412px) {
+  .container .pagination li a {
+    padding: 12px 16px;
+  }
+}
+
 @media (min-width: 576px) {
   .container .pagination li a {
-    position: relative;
     padding: 20px 25px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
   }
 }
 
