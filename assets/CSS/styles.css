@@ -1,12 +1,12 @@
 /* Body */
 body {
-  background-image: url("../img/background3.jpg") fixed;
+  background-image: url("../img/background3.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 /* Nav */
