@@ -22,10 +22,10 @@ Este proyecto se centra en la creación de animaciones utilizando CSS para mejor
 Adjunto algunas capturas de pantalla para demostrar la adaptabilidad del diseño en ambos layouts.
 
 - **Layout Móvil:**
-  ![Layout Móvil](https://i.imgur.com/2H9oCkF.png)
+  ![Layout Móvil](https://i.imgur.com/auWQFHS.png)
 
 - **Layout de Tablet:**
-  ![Layout de Tablet](https://i.imgur.com/p6aCsWy.png)
+  ![Layout de Tablet](https://i.imgur.com/y4PdUdB.jpeg)
 
 - **Layout de Escritorio:**
-  ![Layout de Escritorio](https://i.imgur.com/G1PBHVd.jpeg)
+  ![Layout de Escritorio](https://i.imgur.com/GdKFeib.jpeg)
